@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-section{
+    width: 100%;
+    height: 615px;
+    background: linear-gradient(90deg, #ee0979, #ff6a00);
+    padding: 20px;
+    position:relative;
+}
+.main-div{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+.main-heading{
+    position: relative;
+    font-size: 40px;
+    
+}
+.main-heading::before{
+    content: "Deepesh Prajapati";
+    position: absolute;
+    top: -10px;
+    left: 2px;
+    font-size: 14px;
+    color: #76dbf5;
+    letter-spacing: 3px;
+}
+.main-heading::after{
+    content: "";
+    position: absolute;
+    left: 3px;
+    border: 1px solid black;
+    width: 35%;
+    bottom: 0;
+}
+.paragraph::first-letter{
+    font-size: 40px;
+    color: #ae5;
+    font-weight: bold;
+}
+.paragraph::first-line{
+    text-decoration: underline;
+}
+
+.paragraph::selection{
+    background-color: rgba(154, 236, 236, 0.5);
+}

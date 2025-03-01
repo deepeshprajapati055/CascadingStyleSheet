@@ -1,0 +1,44 @@
+html{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-heading{
+    font-size: 44px;
+    color: rgb(26, 11, 11);
+}
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+.section-border{
+    /* width: 1000px; */
+    color: #fff;
+    /* background-color: #5e9de9; */
+    
+    /* border: 10px solid #003180; */
+    
+    /* Individually write */
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: #003180; */
+
+    /* border-top: 10px solid #003180;
+    border-bottom: 10px solid #003180;
+    border-right: 10px solid #003180;
+    border-left:10px solid #003180; */
+
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: #5e9de9;
+    background-image: linear-gradient(to right top, #e0349b, #8be92c, #14635c, #f13b90, #a8eb12);
+
+    /* border-radius: 10px 20px 30px 40px; */
+    border-radius: 0% 100%;
+}

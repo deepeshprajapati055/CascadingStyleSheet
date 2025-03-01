@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 615px;
+    background-color: hsl(227, 19%, 14%);
+}
+section{
+    display: grid;
+    place-items: center;
+    margin: 40px;
+}
+.content{
+    background-color: #fff;
+    color: black;
+    width: 800px;
+    height: 500px;
+    align-items: center;
+    border-radius: 10px;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.content li{
+    list-style-type: none;
+}
+.content ul p{
+    font-weight: bold;
+    color: red;
+    font-size: 16px;
+}
+.content ul li {
+    color: green;
+}
+.content > ul > li{
+    color: rgb(91, 77, 155);
+    font-weight: bold;
+    font-size: 30px;
+}
+.content ul p + li{
+    color: brown;
+    font-size: 40px;
+}
+.content ul p ~ li{
+    color: crimson;
+    font-size: 35px;
+}

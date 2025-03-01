@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(90deg, #2d48e4, #2ec0da);
+    padding: 10px;
+}
+.main-div{
+    position: absolute;
+    top: 10%;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    
+}
+.main-div button{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #000;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.main-div button:hover{
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+.main-div h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.main-div p{
+    text-align: justify;
+}
+.image_div{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    width: 50%;
+    height: 450px;
+    background: url("/super-detailed-colorful-waves-background-copy-space-bannerconceptual-photography-macro-elements_146482-8530.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+}

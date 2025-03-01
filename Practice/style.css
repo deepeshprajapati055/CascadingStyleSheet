@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/super-detailed-colorful-waves-background-copy-space-bannerconceptual-photography-macro-elements_146482-8530.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+
+div{
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px #252929;
+    width: 50%;
+    margin: 10px auto;
+    height: 300px;
+    padding: 20px;   
+    overflow: auto;
+    backdrop-filter: blur(50px);
+
+}::-webkit-scrollbar{
+    width: 5px;
+    background-color: #f7dfae;
+}::-webkit-scrollbar-thumb{
+    background-color: #535ef7;
+    border-radius: 0px;
+} */
+
+
+
+.nav-header{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}

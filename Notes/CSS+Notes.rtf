@@ -1,0 +1,450 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Cambria;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green77\blue187;\red155\green0\blue211;\red255\green0\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\cf1\b\f0\fs28\lang1033 Q1. What is CSS?\cf0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720 Cascading Style Sheet(CSS) is a stylesheets language used to describe the look & presentation of a document written in HTML or XML. \par
+{\pntext\f1\'B7\tab}It define how element are display on web page.\par
+{\pntext\f1\'B7\tab}CSS make website visually appealing and user friendly.\par
+
+\pard\par
+\cf1 Q2. How to code in CSS?\cf0\par
+        h1\{\par
+            color: red;\par
+            font-size: 32px;\par
+        \}\par
+\par
+\cf1 Q3. Creator & Maintenance of CSS?\cf0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720 CSS was created by a group of individual known as the World Wide Web Consortium (W3C).\par
+{\pntext\f1\'B7\tab}Primary contributors including Hakon Wium Lie and Bert Bos.\par
+{\pntext\f1\'B7\tab}CSS standards and specification are maintained by W3C.\par
+
+\pard\par
+\cf1 Q. What is CSS rules?\cf0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720 A CSS rules consist of a selector and a declaration block.\par
+{\pntext\f1\'B7\tab}Declaration are used to define the style properties for the selected elements.\par
+{\pntext\f1\'B7\tab}Each declaration consist of a property and value.\par
+
+\pard         \tab\par
+Syntax - Selector \{ Property : Value ; ......etc\}\par
+\par
+\cf1 Q.What is declaration?\par
+\cf0 Declaration is the combination of property and value which is declared in the selectors.\par
+\par
+\cf1 Q. How to use CSS in HTML?\par
+\cf0 There is a three way to use CSS in HTML file!\par
+\par
+1. \cf2 Inline CSS\cf0  - It is used to apply directly to an HTML element using the style attribute. specificity of inline CSS is higher than Internal and External\par
+\par
+2. \cf2 Internal CSS\cf0  - It is used to define within the style tag with the HTML document's <head>. specificity of internal CSS is higher than External.\par
+\par
+3. \cf2 External CSS\cf0 - It is stored in separate CSS file linked to the HTML document using the <link> element.\par
+\par
+\cf1 Q. What is Tag/Element selector in CSS?\cf0\par
+The tag/element selector is used to select and style HTML element based on their tag name, like <p>, <h1>, <div> etc..\par
+\par
+\cf1 Q. What is class selector?\par
+\cf0 The class selector is select HTML element based on class attribute. (.) dot represent the class selector in CSS!\par
+Syntax-\par
+        .btn\{\par
+            color: blue;\par
+            font-size: 1rem;\par
+        \}\par
+\par
+\cf1 Q. What is id selector?\par
+\cf0 The id selector is select HTML element based on id attribute. (#) represent the id selector in CSS!\par
+Syntax-\par
+        #btn\{\par
+            color:blue;\par
+            font-size: 1rem;\par
+        \}\par
+\par
+\cf1 Q. What is Pseudo-Class in CSS?\par
+\cf0 A CSS pseudo class is a keyword added to a selector that specifies a special state of the selector element(s).\par
+Syntax-\par
+        a:hover\{ \par
+            color:red;\par
+            font-weight:bold;\par
+        \}\par
+\par
+\cf1 Q. How to comment in CSS?\par
+\cf0 By using "backslash star, star backslash"  - /* comment */ we can comment in CSS!\par
+\par
+\cf1 Q. How many types Color's in CSS?\par
+\cf0 CSS provides several ways to define colors. We can use named colors - (e.g., "red")\par
+hexadecimal values(e.g., #7485)\par
+RGB(Red, Green, Blue) values (e.g., rgb(0,0,0))\par
+HSL (Hue, Stauration, Lightness) values.\par
+\par
+\cf2 Named color\cf0 : You can used named color, which are predefine named color.\par
+\par
+\cf2 RGB color\cf0 : RGB(red, green, blue) values allow to define colors by specifying the amount of RED, GREEN and BLUE in the color.\par
+\par
+\cf2 RGBA color\cf0 : It is similar to RGB but includes alpha channel for opacity control.\par
+\par
+\cf2 Hex color\cf0 : You can specify color by using hexadecimal values.\par
+\par
+\cf2 HSL colors\cf0 : HSL(Hue, Saturation, Lightness) values provides a way to specify colors based on their hue, saturation and lightness.\par
+\par
+\cf1 Q. What is background in CSS?\cf0\par
+Background in CSS is used to set properties of an HTML element according to use.\par
+\par
+There are some property which is mostly used in CSS.\par
+1. \cf2 background-color\cf0  - It is used to set the color of an element.\par
+2. \cf2 background-image\cf0  - It is used to set the image on the background.\par
+3. \cf2 background-repeat\cf0  - Determine how the background image repeat.\par
+4. \cf2 background-position\cf0  - set the starting position of the image.\par
+5. \cf2 background-size\cf0  - Define the size of the background image.\par
+6. \cf2 background-attachment\cf0  - Specifies if the background image scroll with the content.\par
+7. \cf2 background-blend-mode\cf0  - It is used to saturated the color.\par
+\par
+\cf1 Q. What is units in CSS?\par
+\cf0 Units in CSS is measurement used to define the size of an element's properties.\par
+\par
+There are two type of units in CSS.\par
+1. \cf2 Absolute Length\cf0  - Absolute units are fixed and appear as exactly that size.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\cf2 Pixels (px)\cf0  - It is an Absolute unit of measurement in CSS. representing the smallest unit of screen space.\par
+{\pntext\f1\'B7\tab}\cf2 Inches (in)\par
+{\pntext\f1\'B7\tab}Points (pt)\cf0\par
+
+\pard 2. \cf2 Relative Length \cf0 - Relative units scale better between rendering medium.\par
+\cf2 em\cf0  - It is Relative unit that is calculated based on the font-size of the parent element.\par
+\cf2 Root em (rem)\cf0  - It is also relative unit like em. but it based on the font-size of the root (html) element.\par
+\cf2 Percentage (%)\cf0  - It is based on the parent element's size or the containing block.\par
+\par
+\cf2 Syntax\cf0  - \par
+    \cf2 for pixels\cf0  -\par
+        h1\{\par
+            font-size: 54px;\par
+        \}\par
+    \cf2 for Percentage\cf0  -\par
+        (100% = 16px)\par
+        1px = 6.25%  \par
+    \cf2 for em \cf0 -\par
+        1em = 16px\par
+    \cf2 for rem\cf0  -\par
+        h1\{\par
+            font-size: 1rem;\par
+        \}\par
+\par
+\cf1 Q. What is font in CSS?\par
+\cf0 There are some properties in fonts-\par
+\par
+1. \cf2 Font Family\cf0  - It is used to specify the font of the text.\par
+2. \cf2 Font Size\cf0  - It is used to control the size of the text.\par
+3. \cf2 Font Weight\cf0  - It is control the thickness of the characters ranging from 100(thin) to 900(bold).\par
+4. \cf2 Font Style\cf0  - It is used to applies style in our element like italic, normal(default) , oblique etc.\par
+5. \cf2 Font Variant\cf0  - \par
+\par
+\cf1 Q. What is text-properties in CSS?\par
+\cf0 Text properties in CSS we can used to set text-property on html element. there are some properties in text that we can use -\par
+\par
+1. \cf2 Text-Alignment\cf0  - It is control the horizontal alignment of text within an element's box. - common values are `left`, `right`, `center`, `justify`\par
+\par
+2. \cf2 Text-Decoration\cf0  - It property allow you to add decoration like underlines, overline or line-through to text.          \par
+-individual properties `text-decoration-line`,`text-decoration-color`,`text-decoration-style`,`text-decoration-thickness`.\par
+\par
+3. \cf2 Text-Shadow\cf0  - It property allow you to add a shadow effects to text characters.\par
+    - text-shadow: 2px 2px 1px blue; - (offset-x, offset-y, Blur-radius, color);\par
+\par
+4. \cf2 Text-Transform\cf0  - It property allow you to control the capitalization of text.\par
+\par
+5. \cf2 Text-Spacing\cf0  -\par
+    -\cf2  `letter-spacing property`\cf0 - it property controls the spacing between characters in a text.\par
+    - \cf2 `word-spacing property`\cf0  - it property controls the spacing between words in a text.\par
+    - \cf2 `line-height property`\cf0  - it is used to specify the space between lines.\par
+\par
+\cf1 Q. What is Box-Model in CSS? (MOST IMPORTANT)\par
+\cf0 Box Model is a fundamental web design principle that describes how elements on a web page work together to create a box. It is a container that contains multiple properties including margin, border, padding, and the content itself.\par
+\par
+1. \cf2 Border\cf0  - The border shorthand CSS property sets an element's border. It sets the values of border-width, border-style, and border-color.\par
+\par
+Syntax - \par
+    border: 2px solid red;  - (border-width, border-style, border-color).\par
+\par
+Syntax -\par
+    \cf2 -for all side\cf0\par
+    border-radius: 10px;\par
+    \cf2 -[top-left/bottom-right] | [top-right/bottom-left]\cf0\par
+    border-radius: 10px 20%;\par
+    \cf2 -custom radius for each corner\cf0\par
+    [top-left/top-right/bottom-right/bottom-left]\par
+    border-radius: 15px 5px 10px 20px;\par
+\par
+2. \cf2 Padding\cf0  - Padding is used to create space around an element's content, inside of any defined borders.\par
+    - \cf2 Uniform padding\cf0\par
+        padding: 10px;\par
+    - \cf2 Vertical and Horizontal padding\cf0\par
+        padding: 5px, 10px; - 5px from top and bottom and 10px from left and right.\par
+    - \cf2 top| left and right |bottom\cf0\par
+        padding: 5px, 10px, 15px;\par
+    - \cf2 top| right | bottom | left\cf0\par
+        padding: 5px 10px 15px 20px;\par
+    - \cf2 individual padding\cf0\par
+        padding-top: 10px;\par
+        padding-right: 10px;\par
+        padding-bottom: 10px;\par
+        padding-left: 10px;\par
+\par
+3. \cf2 Margin\cf0  - The margin property defines the space outside the element's border. It creates separation between the element and other elements in the layout.\par
+Syntax - \par
+    \cf2 [top|right|bottom|left]\cf0\par
+    margin: 5px, 10px, 15px, 20px;\par
+\par
+\cf1 Q. What is Linear Gradient?\par
+\cf0 The linear-gradient() function creates an image consisting of a progressive transition between two or more colors along a straight line.\par
+\cf2 Linear Way Linear Gradient (Default)\cf0  -\par
+    background-image: linear-gradient(red, yellow); \par
+    background-image: linear-gradient(to right, red, yellow);\par
+    background-image: linear-gradient(to left, red, yellow);\par
+    background-image: linear-gradient(to top, red, yellow);\par
+ \par
+\cf2 Degrees Way Linear Gradient\cf0 -\par
+    background-image: linear-gradient(90deg, red, yellow);\par
+    background-image: linear-gradient(180deg, red, yellow);\par
+    background-image: linear-gradient(270deg, red, yellow);\par
+    background-image: linear-gradient(360deg, red, yellow);\par
+ \par
+\cf2 Diagonal Way Linear Gradient\cf0 -\par
+    background-image: linear-gradient(to top right, red, yellow);\par
+    background-image: linear-gradient(to top left, red, yellow);\par
+    background-image: linear-gradient(to bottom left, red, yellow);\par
+    background-image: linear-gradient(to bottom right, red, yellow);\par
+\par
+\cf2 Repeating-Linear-Gradient\cf0 -\par
+    background-image: repeating-linear-gradient(45deg,#ff5733, #aeaeae 45px); - works only hexadecimal colors.\par
+\par
+\cf1 Q. What is Radial Gradient?\par
+\cf0 The radial-gradient() function sets a radial gradient as the background image.\par
+A radial gradient define by its center.\par
+To create radial gradient you must define two color stops.\par
+\cf2 Default\cf0 -\par
+    background-image: radial-gradient(red, yellow);\par
+\par
+\cf2 Shapes\cf0 -\par
+    background-image: radial-gradient(circle, red, yellow, green);\par
+    background-image: radial-gradient(ellipse, red, yellow, green);\par
+\par
+\cf2 Color Present\cf0 -\par
+    background-image: radial-gradient(circle, red 30%, yellow 50%, green 20%);\par
+\par
+\cf2 Repeating-Radial-Gradient\cf0 -\par
+    background-image: repeating-radial-gradient(#ff5733, #ffc3cf, #aeaeae 45px); - works only hexadecimal colors.\par
+\par
+\cf1 Q. What is Box-Shadow in CSS? \cf2 (MOST IMPORTANT)\cf1\par
+\cf0 box-shadow property adds a shadow effect around an element's frame.\par
+\tab\cf2 -(offset-x, offset-y, blur_radius, Density/spread, color).\cf0\par
+\par
+\cf1 Q. What is Drop-Shadow in CSS? \cf2 (MOST IMPORTANT)\cf1\par
+\cf0 drop shadow we can apply on images. it shows you object behind an object.\par
+\cf2\tab -(offset-x, offset-y, blur_radius, color)\cf0\par
+filter: drop-shadow(-2px 1px 2px #616671);\par
+\par
+\cf1 Q> What is Filter in CSS? (MOST IMPORTANT)\par
+\cf0 CSS filters are set of graphical effects that can be applied on HTML elements to modify their appearance. filter can alter properties like color, contrast, brightness etc.\par
+\par
+\cf2 grayscale()\cf0  - convert the element to grayscale. a value 1 (or 100%) means fully grayscale.\par
+        -filter:grayscale();\par
+\cf2 blur()\cf0  - apply blur effect to the element.\par
+        -filter:blur();\par
+\cf2 brightness()\cf0  - adjusts the brightness of an element. value greater than 1 increase brightness and value less than 1 decrease it.\par
+        -filter:brightness(1.5); 150% brightness\par
+\cf2 contrast()\cf0  - adjusts the contrast of an element. similar to brightness.\par
+       \cf2  \cf0 -filter:contrast(1.0);\par
+\cf2 saturate()\cf0  - increase or decrease the saturation of an element.\par
+        -filter:saturate(2); double saturate\par
+\cf2 hue-rotate()\cf0  - Rotate the hue of the element. values are in degrees.\par
+        -filter:hue-rotate(90deg);\par
+\cf2 invert()\cf0  - invert the color of the element.\par
+        -filter:invert(0.7); 70% color inversion\par
+\cf2 opacity()\cf0  - Adjust the opacity (transparency) of the element. value range from 0 (completely transparent) to 1 (transparent opaque).\par
+        -filter:opacity(0.5); 50%opacity.\par
+\cf2 sepia()\cf0  - applies a sepia tone effect to the element. a value of 1(or 100%) fully sepia.\par
+        -filter: sepia(0.7) 70%sepia effect.\par
+\par
+\cf1 Q. What is List in CSS?\par
+\cf0 List Properties -\par
+        -\cf2 List-style-type\cf0  - it is property specifies the type of list item marker.\par
+        -\cf2 List-style-image\cf0  - it specifies an image as the list item marker.\par
+        -\cf2 List-style-position \cf0 - it specifies the position of the list item marker(bullet points).\par
+        -\cf2 List-style-property\cf0  - is a shorthand property. It is used to set all the list property in one declaration.\par
+\par
+\cf1 Q. What is Anchor in CSS? (MOST IMPORTANT)\par
+\cf0 Anchor state - CSS\par
+        -\cf2 Link('a:link')\cf0  - This is the default state for an unvisited link.\par
+        -\cf2 Visited('a:visited')\cf0  - This state applies to a link that the user has already visited.\par
+        -\cf2 Hover('a:hover')\cf0  - This is state triggers when the user hovers their mouse pointer over a link.\par
+        -\cf2 Active('a:active')\cf0  - This state is trigger when the user clicks on the link.\par
+\par
+\cf1 Q. What is combinators in CSS? (MOST IMPORTANT)\par
+\cf0 CSS combinator are used to define relationship between element in your HTML document. They allow you to target elements based on their position and hierarchy within the document structure.\par
+\cf2 Descendant Selector (Space)\cf0  - Select an element that is descendant of an another element.\par
+\cf2 Child Selector (>)\cf0  - Select an element that is direct child of another element.\par
+\cf2 Adjacent Sibling Selector (+)\cf0  - Select an element that is immediately preceded by another element.\par
+\cf2 General Sibling Selector (~)\cf0  - Select all element that are sibling of another element and share the same parent.\par
+\cf2 Universal selector (*)\cf0  - Select all the elements.\par
+\par
+\cf1 Q. What is Display in CSS? (MOST IMPORTANT)\par
+\cf2 display:block\cf0  - A block-level element in HTML is an element that takes up the full width of the element it's in, and starts a new line on the page. Block-level elements also take up as much horizontal space as possible, creating a "block". \par
+\par
+For example, each paragraph tag will appear on its own line vertically, and paragraphs with longer content will stretch to the edge of the page.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720 New line start- They start on a new line on a web page layout.\par
+{\pntext\f1\'B7\tab}Fill width - They often taken a entire width of their container.\par
+{\pntext\f1\'B7\tab}No side-by-side - They don't next to each other horizontally. Common Example - include paragraph, heading, list, container.\par
+{\pntext\f1\'B7\tab}Vertical stacking - They stack on top of each other, creating a vertical layout.\par
+
+\pard\par
+\cf2 display:inline\cf0  - Inline elements display in a line. They do not force the text after them to a new line. An anchor (or link) is an example of an inline element. You can put several links in a row, and they will display in a line.\par
+\par
+\cf1 Q. What is Positions in CSS? (MOST IMPORTANT)\par
+\cf0 The position property in css is used to control the positioning of elements within a web page. It defines how an element should be placed relative to its normal position in the document flow or relative to its parent or containing elements.\par
+\par
+\cf2 position:relative;\cf0  - Element with position relative are positioned relative to their normal position in the document flow.\par
+properties: top, right, bottom, left: offset the element from its normal position.\par
+\par
+\cf2 position:absolute;\cf0  - Element with position absolute are positioned relative to the normal positioned ancestor or the initial containing block.\par
+\par
+\cf2 position:fixed;\cf0  - Element with position fixed are positioned relative to the viewport, so they remain in the same position even when the page is scrolled.\par
+\par
+\cf2 position:sticky;\cf0  - Element with position sticky are positioned according to the normal flow, but they become sticky and stay within the viewport once they reached a specify scroll position.\par
+\par
+\cf1 Q. What is z-index in CSS? (MOST IMPORTANT)\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\cf0 The z-index property specifies the stack order of an element on a webpage. \par
+{\pntext\f1\'B7\tab}Which element should be placed in front of, or behind or other element when they overlap in the same space. \par
+{\pntext\f1\'B7\tab}Element in higher z-index are placed in front of an element with lower z-index value.\par
+
+\pard\par
+\cf1 Q. What is Overflow in CSS? (MOST IMPORTANT)\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\cf0 Overflow property in css is used to control how content overflows.\par
+{\pntext\f1\'B7\tab}Its containing element when it doesn't fit within the available space. \par
+{\pntext\f1\'B7\tab}It's useful property of handling content that exceeds its container's dimensions.\par
+
+\pard\par
+\cf2 visible - Default.\cf0  The overflow is not clipped. The content renders outside the element's box\par
+\cf2 hidden\cf0  - The overflow is clipped, and the rest of the content will be invisible\par
+\cf2 scroll\cf0  - The overflow is clipped, and a scrollbar is added to see the rest of the content\par
+\cf2 auto\cf0  - Similar to scroll, but it adds scrollbars only when necessary\par
+\par
+\cf1 Q. What is Column-Layout in CSS? (MOST IMPORTANT)\par
+\cf0 Column layout is a visual way to flow content from one column to another. \par
+The number of columns is determined by the columns property, which is a shorthand property that sets both the column-count and column-width properties at the same time. \par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\cf2 column-count \par
+{\pntext\f1\'B7\tab}column-gap \par
+{\pntext\f1\'B7\tab}column-rule \par
+
+\pard\cf0     \tab\tab\cf1 column-rule-style\par
+    \tab\tab column-rule-width \par
+    \tab\tab column-rule-color\cf0  \par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\cf2 column-span \par
+{\pntext\f1\'B7\tab}column-width\par
+
+\pard\cf0\par
+\cf1 Q. What is Pseudo Element in CSS? (MOST IMPORTANT)\par
+\cf0 A CSS pseudo-element is used to style specified parts of an element.\par
+\par
+For example, it can be used to:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720 Style the first letter, or line, of an element\par
+{\pntext\f1\'B7\tab}Insert content before, or after, the content of an element\par
+
+\pard ::before\par
+::after\par
+::first-letter\par
+::first-line\par
+::selection\par
+::placeholder\par
+\par
+\cf1 Q. What is Pseudo Class in CSS?\par
+\cf0 A CSS pseudo class is a keyword added to a selector that specifies a special state of the selector element(s).\par
+\cf1\par
+\cf0 :first-child\par
+:last-child\par
+:hover\par
+:nth-child(n)\par
+:first-of-type\par
+:last-of-type\par
+\par
+\cf2 :first-child -\cf0  selects the first child element of its parent.\par
+\cf2 :last-child\cf0  - selects the last child element of its parent.\par
+\cf2 :nth-child(n)\cf0  - selects element based on their  position within a parent element, where "n" is a numeric value.\par
+\cf2 :first-of-type\cf0  - selects the first element of its type within its parent.\par
+\cf2 :last-of-type\cf0  - selects the last element of its type within its parent.\par
+\cf2 :nth-of-type\cf0  - selects elements of a specified type based on their position within a parent.\par
+\par
+\cf1 Q. What is Flexbox in css?\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\cf0 Flexbox is a one-dimensional layout model that helps you distribute space along a single axis(either horizontally or vertically) in a flexible and efficient way. \par
+{\pntext\f1\'B7\tab}It allows you to align and distribute elements within a container, making it easier to create complex layouts without using floats and positioning.\par
+
+\pard\par
+\cf1 Flex-Container Properties (Parent) -\cf0\par
+1. \cf2 Flex-container (display:flex;)\cf0  : It is used to create flexbox layout, you need a flex container. Apply display: flex; to the container element.\par
+.flex-container\{\par
+    display:flex;\par
+\}\par
+\par
+2. \cf2 Flex-Items\cf0  : It is an element inside the flex container is called as flex item. Flex item can be aligned and distribute along main axis.\par
+\par
+\cf1 3. Main Axis and Cross Axis : \cf3 In Flex-container, one axis is considered the main-axis, and other is the cross axis. You can set the main axis to be either horizontal(row) or vertical (column).\cf0\par
+\par
+4. \cf2 Flex-Direction (flex-direction)\cf0  : It use flex direction to specify the direction to either main axis or cross axis.\par
+Values: row, row-reverse, column, column-reverse.\par
+.flex-container\{\par
+    flex-direction: row;  //Horizontal main-axis (default)\par
+\}\par
+If the flex direction : row then horizontal will be main-axis and vertical become the cross-axis.\par
+If the flex direction : column then vertical part will be main-axis and horizontal axis become the cross-axis.\par
+\par
+5. \cf2 Justify Content (justify-content):\cf0  justify-content aligns flex items along the main axis.\par
+   Values include : flex-start, flex-end, center, space-between, space-evenly, and space-around.\par
+\par
+6. \cf2 Align Items (align-items):\cf0  align-items aligns flex items along the cross axis.\par
+   Values include : flex-start, flex-end, center, stretch and baseline.\par
+\par
+7. \cf2 flex-wrap:\cf0  It use to flex items should wrap to the next line when they overflow the container.\par
+   Values : no-wrap(default), wrap, wrap-reverse.\par
+    We can use align-content only when if i use flex-wrap property. otherwise i will not be able to use.\par
+\par
+8.\cf2  align-content:\cf0  Aligns multiple lines of flex items when there is extra space along the cross axis.\par
+   Values : flex-start, flex-end, center, space-between, space-around, stretch.\par
+\par
+\cf2 gap:\cf0  20px - gap property we can use to give space equally between the items and it's apply only between the items.\par
+\par
+\cf2 aspect-ratio\cf0  - It is a property we can use to give exact width and height equally.\par
+\par
+\cf1 Q. What is Variables in CSS? (MOST IMPORTANT)\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\cf0 CSS Variables, also known as a CSS custom properties, allow you to define reusable values in your css code. \par
+{\pntext\f1\'B7\tab}They provide more flexibility or maintainability to your style.\par
+
+\pard\cf2\par
+1. Declaration and Syntax:\cf0  \par
+        Declare a css variable with the --prefix followed by a name, for example: --main-color.\par
+        Assign a value to the variable using the var() function, like this: \cf2 var(--main-color).\cf0\par
+        Variables can store various type of values, such as colors, numbers, text and more.\par
+        ex: --main-color:#3498db;\par
+\par
+\cf2 2. Variable Definition:\par
+\cf0         You can define a variable in various places, including at the root level, within a selector, or even inside a specific css rule.\par
+        :root\{ --main-color: #3498db; \}\par
+\cf2\par
+3. Variable Usage: \par
+\cf0         Use the var keyword\par
+        .button\{\par
+            background-color: var(--main-color);\par
+        \}\par
+\par
+\par
+Q. What is Grid in CSS?\par
+\par
+}
+ 

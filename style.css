@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*? parallx effect css*/
+/* h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 5px 1px #000;
+    color: #fff;
+    line-height: 1.5;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.section_one{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url("/Parallx/Interior\ Design\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.section_two{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url("/Parallx/Practice/Interior\ Design\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.section_three{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url("/Parallx/Practice/Interior\ Design\ \(3\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.section_four{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url("/Parallx/Practice/Interior\ Design\ \(4\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} */
+
+/*? text-color css*/
+/* h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    background-image: url("super-detailed-colorful-waves-background-copy-space-bannerconceptual-photography-macro-elements_146482-8530.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: text;
+    color: transparent;
+} */
+
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("super-detailed-colorful-waves-background-copy-space-bannerconceptual-photography-macro-elements_146482-8530.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 420px;
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(44, 43, 43, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 12px 12px 1px rgba(44, 43, 43, 0.2);
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px;
+    filter: drop-shadow(-2px 1px 2px #727b8d);
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    filter: drop-shadow(10px 10px 1px rgba(44, 43, 43, 0.2));
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #000;
+    padding: 20px 20px 20px 20px;
+    /*? background-image: url("/Login/vibrant-colors-flow-abstract-wave-pattern-generated-by-ai.jpg"); */
+    /*? background-repeat: no-repeat;*/
+    /* ?background-size: cover; 
+    text-align: center;
+}
+
+.input-box input::placeholder{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+    /*? background-image: url("/Login/vibrant-colors-flow-abstract-wave-pattern-generated-by-ai.jpg"); */
+    /*? background-repeat: no-repeat;*/
+    /*? background-size: cover; 
+    filter: drop-shadow(12px 12px 1px rgba(44, 43, 43, 0.2));
+}
+.wrapper .btn:hover{
+    color: rgb(26, 117, 117);
+    border: none;   
+    outline: none;
+
+}
+.wrapper .links{
+    display: flex;
+    justify-content: center;
+    line-height: 4;
+    padding-top: 20px;
+}
+
+.wrapper .links a{
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper .links a:hover{
+    text-decoration: underline;
+}
+
+.wrapper span{
+    color: #fff;
+} 
+*/
+
+.heading{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-container{
+    width: 70%;
+    height: auto;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    background: linear-gradient(to right, #514a9d, #24c6dc);
+
+    /* display: flex; */
+    /* flex-direction: row;  Default - main-axis -> Horizontally move, cross-axis- Vertically move */
+    /* flex-direction: column;   main-axis -> Vertically move, cross-axis- Horizontally move */
+    /* flex-direction: row;
+    justify-content: center; horizontally stack div in center*/
+
+    /* flex-direction: row;
+    justify-content: flex-end; horizontally stack div in end of flexbox */
+
+    /* flex-direction: row;
+    justify-content: start;
+    align-items: start; */
+
+    /* flex-direction: row;
+    justify-content: start;
+    align-items: center; */
+
+    /* flex-direction: row;
+    justify-content: start;
+    align-items: end; */
+
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; */
+
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.items{
+    min-width: 300px;
+    height: 100px;
+    background: linear-gradient(to right top, #004d7a, #00bf83, #a8eb12);
+    box-shadow: 1px 1px 1px #0000;
+    text-align: center;
+    flex: 1;
+}
+
+.item2{
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    /* align-self: flex-end; */
+}
+.item3{
+    /* flex-basis: 200px; */
+}
+.item4{
+    /* align-self: flex-end; */
+}
+

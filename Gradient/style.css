@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+
+    /* linear way */
+    /* background-image: linear-gradient(red, yellow); */
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* background-image: linear-gradient(to left, red, yellow); */
+    /* background-image: linear-gradient(to top, red, yellow); */
+
+    /* Degrees */
+    /* background-image: linear-gradient(90deg, red, yellow); */
+    /* background-image: linear-gradient(180deg, red, yellow); */
+    /* background-image: linear-gradient(270deg, red, yellow); */
+    /* background-image: linear-gradient(360deg, red, yellow); */
+
+    /* Diagonal */
+    /* background-image: linear-gradient(to top right, red, yellow); */
+    /* background-image: linear-gradient(to top left, red, yellow); */
+    /* background-image: linear-gradient(to bottom left, red, yellow); */
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+
+    /* background-image: repeating-linear-gradient(45deg, red, yellow, 45px); */
+
+    background-image: linear-gradient(90deg, #fb7c00, #e73b50, #9e009b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
